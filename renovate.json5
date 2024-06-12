@@ -13,7 +13,7 @@
         "^Makefile",
       ],
       "matchStrings": [
-        "repo: (?<depName>.*)\n(.+)PKG_VERSION:=v?(?<currentValue>.+)\\/.*",
+        "repo: (?<depName>.*)\nPKG_VERSION:=?(?<currentValue>.+)",
       ],
       "datasourceTemplate": "github-releases",
       "extractVersionTemplate": "^\"?v?(?<version>.*)\"?$",
