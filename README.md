@@ -3,7 +3,7 @@ Forked from https://github.com/messense/openwrt-netbird
 
 # openwrt-netbird
 
-[![GitHub Actions](https://github.com/messense/openwrt-netbird/workflows/CI/badge.svg)](https://github.com/ericgraf/openwrt-netbird/actions?query=workflow%3ACI)
+[![CI](https://github.com/ericgraf/openwrt-netbird/actions/workflows/CI.yml/badge.svg)](https://github.com/ericgraf/openwrt-netbird/actions/workflows/CI.yml)
 
 OpenWrt package for [netbird](https://github.com/netbirdio/netbird)
 
