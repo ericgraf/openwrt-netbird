@@ -14,6 +14,7 @@
       ],
       "matchStrings": [
         "repo: (?<depName>.*)\nPKG_VERSION:=?(?<currentValue>.+)",
+        "repo: (?<depName>.*)\n(.+)PKG_VERSION:=?(?<currentValue>.+)\n",
       ],
       "datasourceTemplate": "github-releases",
       "extractVersionTemplate": "^\"?v?(?<version>.*)\"?$",
