@@ -10,7 +10,7 @@
     {
       "customType": "regex",
       "fileMatch": [
-        "^Makefile",
+        "^Makefile$",
       ],
       "matchStrings": [
         "repo: (?<depName>.*)\nPKG_VERSION:=?(?<currentValue>.+)",
