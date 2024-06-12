@@ -1,19 +1,20 @@
 {
 
   "extends": [
-    "config:recommended" // https://docs.renovatebot.com/presets-config/#configrecommended
+    "config:recommended",
   ],
   
  "customManagers": [
     {
       "customType": "regex",
       "fileMatch": [
-        "^Makefile"
+        "^Makefile",
       ],
       "matchStrings": [
-        "repo: (?<depName>.*)\n(.+)PKG_VERSION:=v?(?<currentValue>.+)\\/.*"
+        "repo: (?<depName>.*)\n(.+)PKG_VERSION:=v?(?<currentValue>.+)\\/.*",
       ],
       "datasourceTemplate": "github-releases",
-      "extractVersionTemplate": "^\"?v?(?<version>.*)\"?$"
+      "extractVersionTemplate": "^\"?v?(?<version>.*)\"?$",
     }
+  ],
 }
